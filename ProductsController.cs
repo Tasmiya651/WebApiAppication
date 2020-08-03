@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using WebServer.Models;
 
 namespace WebServer.Controllers{
-    [Route("api/Controllers")]
+    [Route("api/[Controller]")]
  public class ProductsController:Controller
  {
      [HttpGet]
